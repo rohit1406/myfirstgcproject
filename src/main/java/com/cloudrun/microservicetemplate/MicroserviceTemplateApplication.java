@@ -29,7 +29,8 @@ public class MicroserviceTemplateApplication {
       LoggerFactory.getLogger(MicroserviceTemplateApplication.class);
 
   public static void main(String[] args) {
-    SpringApplication.run(MicroserviceTemplateApplication.class, args);
+	  System.out.println("My first Java appication deployment to GC");
+	  SpringApplication.run(MicroserviceTemplateApplication.class, args);
   }
 
   /** Register shutdown hook to listen for termination signal. */
